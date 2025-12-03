@@ -99,8 +99,13 @@ pkg install ternux-api
 pkg install php
 pkg update -y && pkg upgrade -y
 pkg install python git -y
+pkg update -y && pkg upgrade -y
+pkg install python -y
+pip install requests
+pkg install python-pip -y
+pip install requests
 
-git clone https://github.com/piyas2025/Termux-Setup.git
+# git clone https://github.com/piyas2025/Termux-Setup.git
 
 cd Termux-Setup
 
