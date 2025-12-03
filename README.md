@@ -105,7 +105,7 @@ pip install requests
 pkg install python-pip -y
 pip install requests
 
-# git clone https://github.com/piyas2025/Termux-Setup.git
+git clone https://github.com/piyas2025/Termux-Setup.git
 
 cd Termux-Setup
 
